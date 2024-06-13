@@ -1,0 +1,45 @@
+{
+  "development": {
+    "config_id": "development",
+    "port": 5009,
+    "hostAddress": "localhost:5009",
+    "databaseHost": "0.0.0.0",
+    "databasePort": "27017",
+    "databaseName": "spyne_backend",
+    "dbCredential": {
+      "host": "cluster0.bzkdvic.mongodb.net",
+      "user": "tiwarishiv7169",
+      "password": "Shivam12",
+      "dbName": "spyne_backend"
+    },
+    "jwtsecret": "nodejwt",
+    "jwtresetsecret": "nodejwt",
+    "jwtOptions": {
+      "expiresIn": "24h"
+    },
+    "nodemailer":{
+     "USER":"tiwarishiv7169@gmail.com",
+     "PASS":"hqei rkvw gmvs wsfq"
+    },
+    "swaggerDefinition": {
+      "info": {
+        "title": "node_backend",
+        "version": "1.0",
+        "description": "Node_Backend for testing development"
+      },
+      "basePath": "/api/v1",
+      "securityDefinitions": {
+        "tokenauth": {
+          "type": "apiKey",
+          "name": "Authorization",
+          "in": "header"
+        }
+      }
+    },
+    "cloudinary": {
+      "cloud_name": "dfo4qtyua",
+      "api_key": "291297713492139",
+      "api_secret": "_bf-_JnFN8xtV0tipKxp3H2m8V0"
+    }
+  }
+}
